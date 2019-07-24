@@ -1,0 +1,17 @@
+{
+  "name": "responsive_grid_css_website",
+  "version": "1.0.0",
+  "description": "responsive grid css website",
+  "main": "index.js",
+  "homepage": "https://andriy.github.io/responsive-grid-css",
+  "scripts": {
+    "sass": "node-sass --watch scss/ --recurcive --output dist/css/ ",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
